@@ -75,7 +75,7 @@ print(sum(numbers))
 
 # CODUL TĂU VINE MAI JOS:
 numbers = list(numbers)
-numbers.insert(2, 10)   # daca pozitia 2 este interpretata drept index
+numbers[2] = 10
 numbers = tuple(numbers)
 # CODUL TĂU VINE MAI SUS:
 

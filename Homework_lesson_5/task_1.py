@@ -90,14 +90,13 @@ print(len(numbers))
 first = numbers[0]
 second = numbers[1]
 print(first, second)
-#print("Primele doua elemente din lista sunt: ", numbers[:2][0], numbers[:2][1])
 
 # CODUL TĂU VINE MAI SUS:
 
 # Acum selectează ultimele trei elemente din lista `numbers` și afișează-le
 
 # CODUL TĂU VINE MAI JOS:
-print("::",numbers[-3])
+print(numbers[-3])
 print(numbers[-2])
 print(numbers[-1])
 
@@ -127,7 +126,7 @@ numbers2 = []
 # Acum adaugă numerele de la 6 la 10 în lista `numbers2`
 
 # CODUL TĂU VINE MAI JOS:
-numbers2 = [6, 10]
+numbers2 = list(range(6, 11))
 
 # CODUL TĂU VINE MAI SUS:
 
