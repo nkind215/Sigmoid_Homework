@@ -45,16 +45,14 @@ print(numbers[-1])
 # Afișeați primele două elemente din tuple `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-print(numbers[0])
-print(numbers[1])
+print(numbers[:2][0], numbers[:2][1])
 
 # CODUL TĂU VINE MAI SUS:
 
 # Afișeați ultimele două elemente din tuple `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-print(numbers[-2])
-print(numbers[-1])
+print(numbers[-2:][0], numbers[-2:][1])
 # CODUL TĂU VINE MAI SUS:
 
 # Afișați lungimea tuple `numbers`

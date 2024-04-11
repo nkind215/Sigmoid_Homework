@@ -87,18 +87,14 @@ print(len(numbers))
 # Acum selectează primele două elemente din lista `numbers` și afișează-le
 
 # CODUL TĂU VINE MAI JOS:
-first = numbers[0]
-second = numbers[1]
-print(first, second)
+print(numbers[:2][0], numbers[:2][1])
 
 # CODUL TĂU VINE MAI SUS:
 
 # Acum selectează ultimele trei elemente din lista `numbers` și afișează-le
 
 # CODUL TĂU VINE MAI JOS:
-print(numbers[-3])
-print(numbers[-2])
-print(numbers[-1])
+print(numbers[-3:][0], numbers[-3:][1], numbers[-3:][2])
 
 # CODUL TĂU VINE MAI SUS:
 
