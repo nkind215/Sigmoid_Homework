@@ -164,7 +164,7 @@ Exemplu: task_9(1, 2, 3, 4, 5, number=2) ➞ [2, 4]
 
 # CODUL TĂU VINE MAI JOS:
 def task_9(*args, number: int):
-    return [item for item in args if number != 0 and item % number == 0 and number != 0]
+    return [item for item in args if number != 0 and item % number == 0]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -180,7 +180,7 @@ Exemplu: task_10(1, 2, 3, 4, 5, number=2) ➞ [2, 4]
 
 # CODUL TĂU VINE MAI JOS:
 def task_10(*args, number):
-    return [i for i in args if i != 0 and number % i == 0  and isinstance(number, int)]
+    return [i for i in args if i != 0 and number % i == 0 and isinstance(number, int)]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
