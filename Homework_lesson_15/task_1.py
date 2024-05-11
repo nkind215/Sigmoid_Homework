@@ -198,7 +198,7 @@ class DataFilter:
     def filter_under_mean(self):
         all = self.return_all()
         data_stat = DataStatistics()
-        data_stat.add_container(all)
+        data_stat.add_container(all) 
         return list(filter(lambda x: x > data_stat.mean(), all))
 
 # CODUL TĂU VINE MAI SUS:
