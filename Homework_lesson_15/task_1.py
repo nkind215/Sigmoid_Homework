@@ -175,8 +175,6 @@ tuturor elementelor calculate cu metoda `mean` din clasa `DataStatistics`.
 class DataFilter:
     def __init__(self, object_list=[]):
         self.object_list = object_list
-        # for obj in object_list:
-        #     print(obj)
 
     def add_container(self, obj):
         self.object_list.append(obj)
@@ -201,7 +199,6 @@ class DataFilter:
         all = self.return_all()
         data_stat = DataStatistics()
         data_stat.add_container(all)
-        
         return list(filter(lambda x: x > data_stat.mean(), all))
 
 # CODUL TĂU VINE MAI SUS:
