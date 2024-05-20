@@ -157,11 +157,13 @@ class user:
     
  
 class Sistem:
-    def __init__(self):
+    def __init__(self,):
         self.__utilizatori = {}
 
-    def adauga_utilizator(self, utilizator, id=1):
+    def adauga_utilizator(self, utilizator):
+        id = len(self.__utilizatori.keys()) + 1
         self.__utilizatori[id] = utilizator
+
 
     
     def afiseaza_utilizatori(self):
