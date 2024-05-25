@@ -222,14 +222,14 @@ implicită "1.0".
 
 # CODUL TĂU VINE MAI JOS:
 class TechSolutionsApp:
-    versiune_applicatie = "1.0"
-
+    versiune_aplicatie = "1.0"
+    
     def __init__(self, versiune_aplicatie):
-      self.versiune_aplicatie = versiune_aplicatie
+        self.versiune_aplicatie = versiune_aplicatie
 
     @staticmethod
     def market_view():
-        return f"Vizualizare piață"
+        return "Vizualizare piață"
 
     @classmethod
     def delogat_view(cls):
