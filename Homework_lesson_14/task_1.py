@@ -232,7 +232,7 @@ class TechSolutionsApp:
         return "Vizualizare piață"
 
     @classmethod
-    def delogat_view(cls):
+    def delogat_view(cls):   
         return f"Versiunea aplicației este {cls.versiune_aplicatie}"
 
     def account_view(self):
